@@ -1,51 +1,67 @@
 .project-heading {
-    text-align: center;
-    padding: 4rem 0 2rem 0;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.5rem solid;
+  border-top: 0.5rem solid;
 }
 
 .project-container {
-    max-width: 1140px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-    padding-bottom: 4rem;
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 4rem;
 }
 
 .project-card {
-    background: #1a1919;
-    padding: 1.2rem 1rem;
+  border: 1px solid #eee;
+  color: #eee;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+.project-card:hover {
+  background-color: #004d4d;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(227, 245, 245, 0.2);
+  cursor: pointer;
 }
 
 .project-card img {
-    width: 100%;
+  width: 100%;
 }
 
 .project-title {
-    color: #fff;
-    padding: 1rem 0;
+  color: #fff;
+  padding: 1rem 0;
 }
 
 .pro-details {
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
-    text-align: justify;
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
 }
 
-.pro-btns{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
+.pro-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
 }
 
-.pro-btns .btn{
-    padding: 0.5rem 1rem;
+.pro-btns .btn {
+  padding: 0.5rem 1rem;
 }
 
-@media screen and (max-width:740px) {
-    .project-container {
-        max-width: 90%;
-        margin: auto;
-        grid-template-columns: 1fr;
-    }
+@media screen and (max-width: 740px) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
 }
