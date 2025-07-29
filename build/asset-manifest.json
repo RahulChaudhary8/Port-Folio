@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ff38479.css",
+    "main.js": "/static/js/main.2e20ea3a.js",
+    "static/media/image_editer.png": "/static/media/image_editer.327eaf618ac82d49ce43.png",
+    "static/media/shoping.png": "/static/media/shoping.8c0193e021cd7f798560.png",
+    "static/media/resort.jpg": "/static/media/resort.785308c321c127af1510.jpg",
+    "static/media/portfolio.jpg": "/static/media/portfolio.4640a3fcbbdafab56029.jpg",
+    "static/media/music.jpg": "/static/media/music.e7dbf01812f477e5e1e8.jpg",
+    "static/media/drawing_app.png": "/static/media/drawing_app.30612f47eafbd38c5af2.png",
+    "static/media/h.jpg": "/static/media/h.f47bff87b63c83854903.jpg",
+    "static/media/Profiles.jpg": "/static/media/Profiles.8a120d93d9e08b0c577a.jpg",
+    "static/media/alarm_clock.png": "/static/media/alarm_clock.c917d8d89978037314b9.png",
+    "static/media/english_dictonary.png": "/static/media/english_dictonary.4623900fc4fb9858dbdb.png",
+    "static/media/g.jpg": "/static/media/g.3b61056c67901d8a47f6.jpg",
+    "static/media/language_translate.png": "/static/media/language_translate.328022a1f45d4db6bdb0.png",
+    "index.html": "/index.html",
+    "main.7ff38479.css.map": "/static/css/main.7ff38479.css.map",
+    "main.2e20ea3a.js.map": "/static/js/main.2e20ea3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ff38479.css",
+    "static/js/main.2e20ea3a.js"
+  ]
+}

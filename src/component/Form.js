@@ -7,6 +7,13 @@ const Form = () => {
       <h1 className="cont">CONTACT ME</h1>
       <div className="form">
         <form action="https://formsubmit.co/only1734@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Thank you! We'll get back to you soon."
+          />
           <label htmlFor="fullName">Full Name</label>
           <input
             id="fullName"
@@ -31,6 +38,15 @@ const Form = () => {
             type="text"
             name="subject"
             placeholder="Enter subject"
+            required
+          />
+
+          <label htmlFor="subject">Resume/Cover Letter Link</label>
+          <input
+            id="resume"
+            type="text"
+            name="resume"
+            placeholder="Paste Your Link"
             required
           />
 
